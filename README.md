@@ -17,25 +17,25 @@ Download [FontParty library last release](http://github.com/fguillen/FontParty/d
 Load the script libraries on your page:
   
     <script src="jquery.js" type="text/javascript"></script>
-    <script src="font-party_v0.0.1.js" type="text/javascript"></script>
+    <script src="./font-party/font-party.js" type="text/javascript"></script>
   
 Load the FontParty css on your page:
 
-    <link href='font-party.css' rel='stylesheet' type='text/css' />
+    <link href='./font-party/font-party.css' rel='stylesheet' type='text/css' />
 
 ## How to Use
 **Normal** html element:
 
-    <p class="myclass">This is a normal paragraph with normal text and all</p>
+    <p class="myclass">This is a paragraph with text and all</p>
   
 **FontParty** html element
 
-    <p class="myclass font-party ">This is a normal paragraph with normal text and all</p>
+    <p class="myclass font-party">This is a paragraph with text and all</p>
   
 ## How It Works
-Selecting all the '.font-party' elements on the page and **replace any characters** into them with a 'div' element with special 'class' built on the fly.
+Selecting all the *'.font-party'* elements on the page and **replace any characters** into them with a 'div' element with special *'class'* built on the fly.
 
-(I think is better way to do this with 'img' elements, look the TODO tasks list)
+(I think is better way to do this with *'img'* elements, look the TODO tasks list)
 
 ## Components
 * jQuery library needed

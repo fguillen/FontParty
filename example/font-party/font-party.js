@@ -7,7 +7,7 @@ $(function(){
       element_fun_content += "<div class='font-party-element font-party-char-" + chars[ii].charCodeAt(0) + "'></div>";
     }
     
-    element_fun_content += "<div class='font-party-clear'></div>"
+    element_fun_content += "<div class='font-party-clear'></div>";
     $(this).html( element_fun_content );
   });
 });
