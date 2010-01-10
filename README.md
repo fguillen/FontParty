@@ -67,6 +67,9 @@ Run the Ruby script that **builds the customized .css file**:
 ## Code
 [FontParty's github repository](http://github.com/fguillen/FontParty "FontParty's github repository")
 
+## Author
+[Fernando Guillen](http://fernandoguillen.info "Fernando Guillen official site")
+
 ## License
 One of those you can do **whatever you want** with the code.
 
