@@ -3,6 +3,9 @@
 ## Summary
 This JavaScript jQuery library permits to replace any text block on a page with **graphic characters**.
 
+## Example
+[FontParty library official site](http://fernandoguillen.info/playing/FontParty title="FontParty library official site")
+
 ## Disclaimer
 The results are not *very serious*, is just for very concrete scenarios.
 
