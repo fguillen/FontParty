@@ -7,9 +7,9 @@
 #  ruby font-party-css-creator.rb <image_file_name> <cell_width_on_pixels> <cell_height_on_pixels>
 # ======================
 
-file_path = ARGV[1] || 'font-party.gif'
-char_width = ARGV[2] || 30
-char_height = ARGV[3] || 60
+file_path = ARGV[0] || 'font-party.gif'
+char_width = ARGV[1].to_i || 30
+char_height = ARGV[2].to_i || 60
 
 chars_table = <<CHARSTABLE
 ABCDEFGHIJ
@@ -28,7 +28,7 @@ css = <<CSS
   float: left;
   width: #{char_width}px;
   height: #{char_height}px;
-  background-image: url(font-party.gif);
+  background-image: url(#{file_path});
 }
 CSS
 
