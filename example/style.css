@@ -1,0 +1,9 @@
+#wrapper{
+width: 550px;
+margin: 0 auto;
+}
+
+#header{
+padding-top: 262px;
+background: #fff url(is_this_a_logo.gif) no-repeat top center;
+}
