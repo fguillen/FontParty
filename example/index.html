@@ -12,7 +12,7 @@
     <meta name="description" content="FontParty library. Replace any text block on a page with graphic characters." />
   </head>
   <body>
-    
+
     <div id="wrapper">
       <div id="header">
         <h1>FontParty JavaScript Library</h1>
@@ -21,40 +21,45 @@
         <p>Go to the <a href="http://github.com/fguillen/FontParty" title="FontParty github repository">FontParty github repository</a>
           looking for code and instructions.</p>
       </div>
-      
+
       <div id="content">
         <h2>Normal boring paragraph</h2>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam turpis est, dictum vel 
-          pharetra vitae, lobortis ac leo. Vivamus dignissim nisi non nulla facilisis sit amet venenatis 
-          massa vulputate. Vivamus iaculis sollicitudin diam quis porttitor. Phasellus molestie nibh 
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam turpis est, dictum vel
+          pharetra vitae, lobortis ac leo. Vivamus dignissim nisi non nulla facilisis sit amet venenatis
+          massa vulputate. Vivamus iaculis sollicitudin diam quis porttitor. Phasellus molestie nibh
           in velit egestas sit amet fermentum libero pulvinar. Duis tincidunt tempus nisi.
         </p>
 
         <h2>FontParty paragraph</h2>
         <p class="font-party">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam turpis est, dictum vel 
-          pharetra vitae, lobortis ac leo. Vivamus dignissim nisi non nulla facilisis sit amet venenatis 
-          massa vulputate. Vivamus iaculis sollicitudin diam quis porttitor. Phasellus molestie nibh 
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam turpis est, dictum vel
+          pharetra vitae, lobortis ac leo. Vivamus dignissim nisi non nulla facilisis sit amet venenatis
+          massa vulputate. Vivamus iaculis sollicitudin diam quis porttitor. Phasellus molestie nibh
           in velit egestas sit amet fermentum libero pulvinar. Duis tincidunt tempus nisi.
         </p>
       </div><!-- content -->
-      
+
       <div id="footer">
-        <p>FontParty is another almost-useless experimental project by 
+        <p>FontParty is another almost-useless experimental project by
           <a href="http://fernandoguillen.info" title="Fernando Guillen official site">Fernando Guillen</a>.</p>
       </div>
     </div>
-    
-    <!-- analytics -->
-    <script type="text/javascript">
-    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-    </script>
-    <script type="text/javascript">
-    try {
-    var pageTracker = _gat._getTracker("UA-3468219-1");
-    pageTracker._trackPageview();
-    } catch(err) {}</script>
+
+  <!-- google analytics -->
+  <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-34268044-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+  </script>
+  <!-- google analytics -->
   </body>
 </html>
