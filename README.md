@@ -4,7 +4,7 @@
 This JavaScript jQuery library permits to replace any text block on a page with **graphic characters**.
 
 ## Example
-[FontParty library official site](http://fernandoguillen.info/playing/FontParty "FontParty library official site")
+[FontParty library demo page](http://fguillen.github.com/FontParty/example)
 
 ## Disclaimer
 The results are not *very serious*, is just for very concrete scenarios.
@@ -15,10 +15,10 @@ Download the [jQuery library](http://docs.jquery.com/Downloading_jQuery "jQuery 
 Download [FontParty library last release](http://github.com/fguillen/FontParty/archives/master "FontParty library downloads").
 
 Load the script libraries on your page:
-  
+
     <script src="jquery.js" type="text/javascript"></script>
     <script src="./font-party/font-party.js" type="text/javascript"></script>
-  
+
 Load the FontParty css on your page:
 
     <link href='./font-party/font-party.css' rel='stylesheet' type='text/css' />
@@ -27,11 +27,11 @@ Load the FontParty css on your page:
 **Normal** html element:
 
     <p class="myclass">This is a paragraph with text and all</p>
-  
+
 **FontParty** html element
 
     <p class="myclass font-party">This is a paragraph with text and all</p>
-  
+
 ## How It Works
 Selecting all the *'.font-party'* elements on the page and **replace any characters** into them with a 'div' element with special *'class'* built on the fly.
 
@@ -66,7 +66,7 @@ The **height and width of the cells are customizable** but all of them have to h
 Run the Ruby script that **builds the customized .css file**:
 
     $ ruby font-party-css-creator.rb <image_file_name> <cell_width_on_pixels> <cell_height_on_pixels>
-  
+
 ## Code
 [FontParty's github repository](http://github.com/fguillen/FontParty "FontParty's github repository")
 
